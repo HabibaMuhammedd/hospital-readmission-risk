@@ -4,6 +4,7 @@ Predicts which diabetic patients are likely to be readmitted within 30 days of d
 team can prioritise follow-up calls and visits. Includes a Streamlit discharge form.
 
 **Live demo:** _add your Streamlit link here_
+https://hospital-readmission-risk-g5ho8mwmyvxznfaccrz8fa.streamlit.app/
 
 ## Data
 [Diabetes 130-US hospitals for years 1999–2008](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008)
