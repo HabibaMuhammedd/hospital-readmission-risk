@@ -1,0 +1,22 @@
+rows=99,340  patients=69,987  positive rate=0.114
+xgboost not installed -> skipping XGBoost (pip install xgboost)
+Logistic Regression    ROC-AUC 0.662 ± 0.005  PR-AUC 0.211  (6s)
+Random Forest          ROC-AUC 0.670 ± 0.004  PR-AUC 0.216  (53s)
+HistGradientBoosting   ROC-AUC 0.669 ± 0.007  PR-AUC 0.220  (19s)
+
+Best by CV PR-AUC: HistGradientBoosting
+xgboost not installed -> skipping XGBoost (pip install xgboost)
+{
+  "best_model": "HistGradientBoosting",
+  "threshold": 0.49587936559609597,
+  "target_recall_cv": 0.6,
+  "test_roc_auc": 0.6770770444170491,
+  "test_pr_auc": 0.23841804143835987,
+  "test_brier": 0.21855465166061325,
+  "base_rate": 0.11348808981945077,
+  "test_recall": 0.5864527629233511,
+  "test_precision": 0.18101788170563962,
+  "flagged_share": 0.3676730895665807
+}
+xgboost not installed -> skipping XGBoost (pip install xgboost)
+saved -> models/readmission_model.joblib

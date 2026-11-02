@@ -1,0 +1,6 @@
+# runtime (what the Streamlit app needs; used by Streamlit Community Cloud)
+pandas
+numpy
+scikit-learn
+joblib
+streamlit

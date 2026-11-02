@@ -1,0 +1,12 @@
+{
+  "best_model": "HistGradientBoosting",
+  "threshold": 0.49587936559609597,
+  "target_recall_cv": 0.6,
+  "test_roc_auc": 0.6770770444170491,
+  "test_pr_auc": 0.23841804143835987,
+  "test_brier": 0.21855465166061325,
+  "base_rate": 0.11348808981945077,
+  "test_recall": 0.5864527629233511,
+  "test_precision": 0.18101788170563962,
+  "flagged_share": 0.3676730895665807
+}
